@@ -1,6 +1,10 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="//TODO"/>
+  <HelloWorld msg="Nick Kohse"/>
+  <a href="https://github.com/NickKohse">GitHub</a>
+  <br/>
+  <a href="nick-resume.pdf" download>Resume</a>
+  <footer>More to come...</footer>
 </template>
 
 <script>
@@ -9,8 +13,8 @@ import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 }
 </script>
 
@@ -22,5 +26,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+footer {
+  background-color: #57c295;
+  position: absolute;
+  bottom: 0;
+  width: 99.5%;
 }
 </style>
