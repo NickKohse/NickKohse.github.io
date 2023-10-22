@@ -1,31 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Nick Kohse"/>
-  <a href="https://github.com/NickKohse">GitHub</a>
-  <br/>
-  <a href="nick-resume.pdf" download>Resume</a>
+  <Header />
   <footer>More to come...</footer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Header,
   },
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 footer {
   background-color: #57c295;
