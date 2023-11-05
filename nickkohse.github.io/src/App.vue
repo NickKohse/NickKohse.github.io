@@ -27,6 +27,9 @@ footer {
   background-color: #57c295;
   position: absolute;
   bottom: 0;
-  width: 99.5%;
+  width: 100%;
+}
+* {
+  margin: 0;
 }
 </style>
