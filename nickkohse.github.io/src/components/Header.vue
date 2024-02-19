@@ -24,6 +24,7 @@
   <style scoped>
   header {
     background-color: #57c295;
+    border: 2px solid #2c3e50;
     padding: 5px;
   }
   

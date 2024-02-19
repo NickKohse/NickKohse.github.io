@@ -1,16 +1,21 @@
 <template>
-  <Header />
-  <footer>More to come...</footer>
+  <body>
+    <Header />
+    <main> More to come</main>
+    <Footer />
+  </body>
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 
 export default {
   name: 'App',
   components: {
     Header,
+    Footer,
   },
 }
 </script>
@@ -23,11 +28,16 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-footer {
-  background-color: #57c295;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+main {
+  color: #2c3e50;
+  background-color: #bdc1d8;
+  flex: 1;
+  padding: 15px;
 }
 * {
   margin: 0;
